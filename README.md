@@ -26,7 +26,7 @@ rel="stylesheet" type="text/css">
 
 </head><br>
    
-<header>To contain the headings of a web page and hero picture.</header> <br>
+<header> It will contain the headings of a web page and hero picture.</header> <br>
     
 <nav>Navigaton links.</nav>
     
