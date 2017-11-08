@@ -24,11 +24,20 @@ rel="stylesheet" type="text/css">
 <![endif]-->
  
 
-</head><br>
-   
-<header> It will contain the headings of a web page and hero picture.</header> <br>
+</head>
+    <header>hero image.</header> <br>
     
-<nav>Navigaton links.</nav>
+<nav>
+    <a href="home">Home</a>
+    <a href="course details">Course Details</a>
+    <a href="registration">Registration</a>
+    <a href="faqs">FAQ'S</a>
+    <a href="contact">Contact</a>
+    
+</nav>
+    
+<h1>heading</h1> 
+    
     
 <main>
     <p>Main Content of a web page.
