@@ -1,0 +1,101 @@
+/* 
+File Name: aceintehole.css
+Date: 12/12/2017
+Programmer: Ericka Goo 
+*/
+
+body { background-color: #FFFFFF;
+       color: #000000;
+       font-family: sans-serif;
+       text-align: justify;
+       line-height: 200%;
+       background-repeat: no-repeat;
+       background-position: right;
+       height: 72px;
+       padding: 20px 20px 0px 20px;
+       margin-bottom: 10px;
+}
+
+
+h1 { font-family: sans-serif;
+     
+}
+
+h2 {
+    text-align: center
+}
+
+#makeMeScrollable
+    { width:100%;
+      height: 330px;
+      position: relative;
+      clear: both;
+}
+
+#makeMeScrollable div.scrollableArea
+    { position: relative;
+      display: block;
+      float: left;
+      margin: 0;
+      padding: 0;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+}
+               
+nav {
+    
+ text-align: center;   
+    
+}
+nav { color: #000000;
+    
+}
+
+nav a:link { color: #FF0000; 
+}
+
+nav a:visited{ color:  #FF0000; 
+}
+
+nav a:hover{ color:  #FF0000; 
+}
+
+
+body { font-family: sans-serif;
+       margin: auto;    
+}
+
+footer { padding: 10px;
+         text-align:center;
+         margin-top: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+
+/*@media only all and (max-width: 768px)*/
+    
