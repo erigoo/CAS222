@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- 
+File Name:registration.html
+Date: 12/12/2017
+Programmer: Ericka Goo
+-->
+
+<html lang="en">
+    
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="author" content="erickagoo">
+<link href="styles/aceinthehole.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href= "styles/aceinthehole.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="Stylesheet" type="text/css" href="styles/smoothDivScroll.css">
+        
+<title>Ace in the Hole</title>
+<!--[if 1t IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+    
+    <div id="makeMeScrollable">
+		<img src="images/bicycle_small.jpeg" alt="Bicycling" id="bicycling" />
+        <img src="images/running_small.jpg" alt="Running" id="running" />
+        <img src="images/swimming_small.jpg" alt="Swimming" id="swimming" />
+        <img src="images/running9_small.jpg" alt="Running" id="running" />
+    </div>
+        
+<nav>
+    <a href="aceinthehole.html">Home</a>
+    <a href="course.html">Course Details</a>
+    <a href="registration.html">Registration</a>
+    <a href="faqs.html">FAQ'S</a>
+    <a href="contact.html">Contact</a>
+</nav>
+    
+    <h1>Registration Cost</h1> 
+    <p>
+        Long Course $240 <br/>	  	
+        Olympic $110<br/>	  		
+        10K $50 <br/>	  	
+        Half Marathon $75<br/>	
+        Sprint $90<br/>
+        Try-a-Tri $65<br/>
+    </p>
+    
+    <h1>Registration Form</h1>
+    
+<form name="example" method="post" action="registration.php">
+        
+        Full Name: <input type="text" name="fname" size="20" /><br />
+        Email Address: <input type="text" name="email" size="20" /><br />
+        Phone Number: <input type="text" name="phone" size="20" /><br />
+        Emergency Contact Name: <input type="text" name="emergency" size="20" /><br />
+        Emergency Contact phone number: <input type="text" name="emergency phone" size="20" /><br />
+        Event Registering for: 
+        <select name="event">
+        <option value="">Please select</option>
+        <option>Long Course $240</option>
+        <option>Olympic $110</option>
+        <option>10K $50</option>
+        <option>Half Marathon $75</option>
+        <option>Sprint $90</option>
+        <option>Try-a-Tri $65</option>
+        </select><br /><br />
+        
+        <input type="submit" value="Submit">
+</form>
+    
+    <h1>Cost Includes</h1>
+    
+    <p>
+    Food and Beer 
+    Access to the weekend’s live entertainment and  Fitness Expo
+    Commemorative Finisher medal
+    Accurate Chip Timing for competitive races
+    Ace in the Hole MultiSport Weekend Tech Shirt
+    Post-event party and entertainment. <br /><br />
+        
+        <strong>NOTE: Tech shirts guaranteed to pre-registered participants only. </strong><br /><br />
+        
+        PACKET PICK UP <br/>
+        All packet pick up will occur at Why Worry Racing, 123 NW Everett, Portland OR.<br/>
+        Packet pick up hours: Thursday 8-5, Friday 9-noon.<br/>
+        
+        <strong>No day of event packet pick up.</strong><br/>
+    </p>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
+    <script src="js/jquery.kinetic.min.js" type="text/javascript"></script>
+    <script src="js/jquery.smoothdivscroll-1.3-min.js" type="text/javascript"></script>  
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#makeMeScrollable").smoothDivScroll({
+				touchScrolling: true,
+				manualContinuousScrolling: true,
+				hotSpotScrolling: false,
+				mousewheelScrolling: false
+            });
+        });
+    </script>
+    
+</html>
